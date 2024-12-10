@@ -1,0 +1,75 @@
+.content{
+    animation: zoom 2s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(0, 0);
+    }
+
+    100%{
+        transform: scale(1 ,1);
+    }
+}
+
+.about:hover{
+    box-shadow: 0px 0px 50px white;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+.testmonials:hover{
+    box-shadow: 0px 0px 50px white;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+.content h1{
+    animation: zoomin 2s infinite;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(45deg white blue white);
+    
+
+}
+
+@keyframes zoomin{
+    0%{
+        text-shadow: 0px 0px 5px;
+        
+        
+       
+        
+    }
+
+    100%{
+        text-shadow: 0px 0px 50px;
+        background-color: transparent;
+        color: rgb(rgb(14, 123, 201), rgb(74, 76, 105), rgb(218, 218, 224));
+        
+        
+    }
+}
+
+.box{
+    animation: zoomout 3s infinite;
+}
+
+@keyframes zoomout {
+    0%{
+        
+        box-shadow: 0px 0px 10px white;
+    }
+
+    
+
+
+    100%{
+        box-shadow: 0px 0px 50px white;
+        
+    }
+
+    
+}
+
+
